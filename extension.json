@@ -1,4 +1,12 @@
 {
   "manifest_version": 2,
-  "name": "Blender"
+  "name": "Blender",
+  "author": [ "WMF", "[https://www.mediawiki.org/wiki/Inuka_team Inuka Team]"],
+  "url": "https://github.com/stephanebisson/Blender",
+  "descriptionmsg": "blender-desc",
+  "MessagesDirs": {
+		"Blender": [
+			"i18n"
+		]
+	}
 }
