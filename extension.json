@@ -4,6 +4,12 @@
   "author": [ "WMF", "[https://www.mediawiki.org/wiki/Inuka_team Inuka Team]"],
   "url": "https://github.com/stephanebisson/Blender",
   "descriptionmsg": "blender-desc",
+  "SpecialPages": {
+		"Blender": "MediaWiki\\Extension\\Blender\\Special"
+  },
+  "AutoloadNamespaces": {
+		"MediaWiki\\Extension\\Blender\\": "src/"
+	},
   "MessagesDirs": {
 		"Blender": [
 			"i18n"
